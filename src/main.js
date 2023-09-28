@@ -2,7 +2,7 @@
 
 const numero = prompt("Informe um Numero: ");
 const dobro = numero * 2;
-alert("o numero informado foi: "+ numero);
+alert("o numero informado foi: "+ dobro);
 
 //Elabore um programa que calcule o valor do jantar, sendo o valor total do jantar composto pela conta junto com a taxa de atendimento do garçom. 
 
