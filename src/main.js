@@ -8,8 +8,9 @@ alert("o numero informado foi: "+ dobro);
 
 const valorConta = prompt("informe o valor do Jantar: ");
 const valorContaFormatado = parseInt(valorConta);
-const taxaAtendimento = 0.05;
-const valorTotalJantar = (valorContaFormatado * taxaAtendimento) + valorContaFormatado;
+const taxaAtendimento = prompt("informe o valor da taxa de Atendimento: ");
+const taxaFormatado = parseInt(taxaAtendimento);
+const valorTotalJantar = (valorContaFormatado * (taxaFormatado / 100)) + valorContaFormatado;
 alert("o valor total do jantar é R$ "+valorTotalJantar);
 
 //Elabore um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente. 
